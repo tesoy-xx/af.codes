@@ -1,7 +1,11 @@
 html, body {
     padding: 0 !important;
     margin: 0 !important;
-    background-color: #F5F5F5;
+    background-color: #141D26;
+}
+
+.mdl-layout__header {
+    background-color: #243447 !important;
 }
 
 .blue-text {
@@ -14,6 +18,7 @@ html, body {
 
 h1, h2, h3, h4, h5, h6, .mdl-layout-title {
     font-family: 'Roboto Mono', monospace !important;
+    color: white;
 }
 
 b, strong {
@@ -27,7 +32,11 @@ span, p {
 
 p {
     font-size: 1.2rem;
-    color: #424242;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+p strong, p b {
+    color: rgba(255, 255, 255, 0.9);
 }
 
 .flow-text {
@@ -41,7 +50,7 @@ p {
 hr {
     border: 0;
     height: 1px;
-    background: #E0E0E0;
+    background: #424242;
 }
 
 .centered, .centered tr, .centered tr td {
@@ -59,6 +68,7 @@ hr {
 .mdl-card {
     width: 100%;
     height: 100%;
+    background-color: #1B2836;
 }
 
 .mdl-card img {
