@@ -107,6 +107,10 @@ a {
         width: calc(97.5% - 16px);
     }
 
+    h3 {
+        font-size: 1.2rem;
+    }
+
     h5 a {
         line-height: 2.0rem;
     }
