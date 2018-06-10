@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,500,700');
+
+body {
+    background-color: #F7F7F7;
+}
+
+/** Misc. */
+span, p, b, i, em, strong, b, td, input[type=text], input[type=password] {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #696969;
+}
+
+strong, b {
+    font-weight: 700 !important;
+}
+
+h1, h2, h3, h4, h5, h6, nav .logo, table thead th {
+    font-weight: 700;
+    color: #696969;
+}
+
+a {
+    color: #4595E3;
+}
+
+/** Input field hint text color */
+::-webkit-input-placeholder {
+    color: #838383;
+}
+::-moz-placeholder {
+    color: #838383;
+}
+:-ms-input-placeholder {
+    color: #838383;
+}
+:-moz-placeholder {
+    color: #838383;
+}
+
+/** Nav **/
+nav .logo {
+    font-size: 1.2rem;
+}
+
+/** Slide nav **/
+.slidenav {
+    display: block;
+}
+.slidenav li.divider {
+    height: 1px !important;
+    background-color: #EEE !important;
+    width: 100% !important;
+}
+.slidenav li.subheader {
+    height: unset !important;
+    line-height: unset !important;
+    margin-left: 28px !important;
+}
+.slidenav li.subheader span {
+    font-weight: 500;
+}
+
+.slidenav li:not(.divider):not(.subheader) {
+    height: 48px !important;
+    line-height: 48px !important;
+}
+.slidenav li:not(.divider):not(.subheader):hover {
+    background-color: #eee;
+}
+.slidenav li:not(.divider) i {
+    vertical-align: middle !important;
+    color: #9C9C9C !important;
+    margin-right: 16px;
+    margin-left: 28px !important;
+}
+.slidenav li:not(.divider).active i {
+    color: #4595E3 !important;
+}
+.slidenav li:not(.divider) span {
+    vertical-align: middle !important;
+    color: #9C9C9C !important;
+}
+.slidenav li:not(.divider).active span {
+    color: #4595E3 !important;
+}
+
+/** Search in nav **/
+input[id="search"] {
+    height: 45px !important; 
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.search-input {
+    background-color: #F5F5F5;
+    height: 45px !important; 
+    margin-top: 10px;
+    border-radius: 5px;
+}
+nav .input-field input[type=search]:focus {
+    background-color: #F5F5F5 !important;
+}
+nav .input-field label, nav .input-field label.active {
+    top: -8px !important;
+    left: 16 !important;
+    transform: none !important;
+    color: #696969 !important;
+}
+nav .input-field i {
+    color: #696969 !important;
+}
+
+/** Right nav toolbar items */
+nav .right a {
+    color: #696969;
+}
+
+/** Main content */
+.left-pane {
+    width: 20%;
+    left: 0%;
+    position: absolute;
+}
+.right-pane {
+    width: 80%;
+    left: 20%;
+    position: absolute;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 2.5%;
+}
+.card-panel {
+    padding: 0 !important;
+}
+.table-header {
+    margin-bottom: 16px;
+    color: #696969;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+#new-app {
+    color: #4595E3;
+}
+table thead th:first-child, table tbody tr td:first-child {
+    width: 62px;
+    padding-left: 20px;
+}
+
+/** Just for demo */
+.dot {
+    height: 28px;
+    width: 28px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
