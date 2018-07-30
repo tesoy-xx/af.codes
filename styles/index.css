@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Oswald:500');
+
 html, body {
     padding: 0 !important;
     margin: 0 !important;
@@ -9,7 +11,7 @@ html, body {
 }
 
 .blue-text {
-    color: rgb(83, 109, 254);
+    color: #571FE0;
 }
 
 #spaContainer {
@@ -17,7 +19,7 @@ html, body {
 }
 
 h1, h2, h3, h4, h5, h6, .mdl-layout-title {
-    font-family: 'Roboto Mono', monospace !important;
+    font-family: 'Oswald', sans-serif !important;
     color: rgba(0, 0, 0, 0.9);
 }
 
@@ -25,9 +27,9 @@ b, strong {
     font-weight: 700 !important;
 }
 
-span, p {
+span, p, a {
     font-weight: 400 !important;
-    font-family: 'Roboto', sans-serif !important;
+    font-family: 'Lato', sans-serif !important;
 }
 
 p {
