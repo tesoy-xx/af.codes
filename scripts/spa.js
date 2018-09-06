@@ -2,7 +2,6 @@
  * @param {string} url
  */
 function navigateToPage(url) {
-  console.log('Navigating to ' + url);
   $('#spaContainer').html('');
   $.ajax({
     url: url,
