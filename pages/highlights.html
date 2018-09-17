@@ -5,12 +5,12 @@
             <h3>Welcome!</h3>
             <p class="flow-text">
                 My name is
-                <b>Aidan</b>, I was born in 1995. I'm a young full-stack Software Developer with a passion for all things
-                Google (Android, GCP, Assistant, ChromeOS, GSuite, etc.). My main focuses include mobile application development
-                for the Android platform, along with frontend and backend web development using Node.js and other related tools.
-                I currently work as an Android Engineer at Square in San Francisco, working on custom in-house hardware such as
-                <a href="https://squareup.com/hardware/register" target="_blank">Square Register</a>.
-                You can download my latest resume <a href="AidanFollestad_Resume.pdf">here</a>.
+                <b>Aidan</b>, I'm currently <strong><span class="age"></span> years old</strong>. I'm full-stack Software Developer
+                with a passion for all things Google (Android, GCP, Assistant, Chrome OS, G Suite, etc.). My main focuses include
+                mobile application development for the Android platform, along with frontend and backend web development using Node.js
+                and other related tools. I currently work as an <strong>Android Engineer at Square</strong> in San Francisco, working
+                on custom in-house hardware such as <a href="https://squareup.com/hardware/register" target="_blank">Square Register</a>.
+                You can download my resume <a href="AidanFollestad_Resume.pdf">here</a>.
             </p>
 
         </td>
@@ -165,4 +165,7 @@
 
 <script type="text/javascript">
     $('title').text('Welcome');
+
+    var currentYear = new Date().getFullYear();
+    $('.age').text(currentYear - 1995);
 </script>
