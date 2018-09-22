@@ -23,13 +23,13 @@ h1, h2, h3, h4, h5, h6, .mdl-layout-title {
     color: rgba(0, 0, 0, 0.9);
 }
 
-b, strong {
-    font-weight: 700 !important;
-}
-
 span, p, a {
     font-weight: 400 !important;
     font-family: 'Lato', sans-serif !important;
+}
+
+b, strong, strong span {
+    font-weight: 700 !important;
 }
 
 p {
