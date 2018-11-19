@@ -100,10 +100,12 @@ a {
 .mdl-layout-title a {
     color: #FFFFFF !important;
     text-decoration: none !important;
+    font-family: 'Lato', sans-serif !important;
 }
 
 .mdl-layout__header-row .mdl-navigation__link {
     color: #FFFFFF !important;
+    font-family: 'Lato', sans-serif !important;
 }
 
 .mdl-navigation__link:hover {
