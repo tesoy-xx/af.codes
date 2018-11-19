@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato|Oswald:500');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif|Open+Sans:300');
 
 html, body {
     padding: 0 !important;
@@ -19,13 +19,13 @@ html, body {
 }
 
 h1, h2, h3, h4, h5, h6, .mdl-layout-title {
-    font-family: 'Oswald', sans-serif !important;
+    font-family: 'Open Sans', sans-serif !important;
     color: rgba(0, 0, 0, 0.9);
 }
 
 span, p, a {
     font-weight: 400 !important;
-    font-family: 'Lato', sans-serif !important;
+    font-family: 'Noto Serif', serif !important;
 }
 
 b, strong, strong span {
