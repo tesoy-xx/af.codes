@@ -74,7 +74,8 @@ hr {
 }
 
 .mdl-card h4 {
-    color: rgba(125, 125, 125, 1.0);
+    color: rgba(80, 80, 80, 1.0);
+    font-size: 1.5rem;
 }
 
 .mdl-card img {
