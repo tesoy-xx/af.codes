@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif|Open+Sans:300');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif|Lato');
 
 html, body {
     padding: 0 !important;
@@ -19,7 +19,7 @@ html, body {
 }
 
 h1, h2, h3, h4, h5, h6, .mdl-layout-title {
-    font-family: 'Open Sans', sans-serif !important;
+    font-family: 'Lato', sans-serif !important;
     color: rgba(0, 0, 0, 0.9);
 }
 
