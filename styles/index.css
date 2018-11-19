@@ -7,7 +7,7 @@ html, body {
 }
 
 .mdl-layout__header {
-    background-color: #FFFFFF !important;
+    background-color: #42A5F5 !important;
 }
 
 .blue-text {
@@ -92,16 +92,16 @@ a {
 }
 
 .mdl-layout-title a {
-    color: #000000 !important;
+    color: #FFFFFF !important;
     text-decoration: none !important;
 }
 
 .mdl-layout__header-row .mdl-navigation__link {
-    color: #000000 !important;
+    color: #FFFFFF !important;
 }
 
 .mdl-navigation__link:hover {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 @media (max-width: 839px) and (min-width: 480px) {
