@@ -73,6 +73,10 @@ hr {
     background-color: #ffffff;
 }
 
+.mdl-card h4 {
+    color: rgba(125, 125, 125, 1.0);
+}
+
 .mdl-card img {
     width: 100%;
     height: auto;
