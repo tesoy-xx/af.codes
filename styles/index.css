@@ -148,6 +148,10 @@ a {
     h3 {
         font-size: 1.8rem;
     }
+
+    .mdl-layout__header-row .mdl-navigation__link {
+        font-size: 1.1rem !important;
+    }
 }
 
 @media (min-width: 2100px) {
