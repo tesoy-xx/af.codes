@@ -43,6 +43,7 @@ p strong, p b {
 
 .flow-text {
     line-height: 210%;
+    text-align: start;
 }
 
 .mdl-layout__header-row {
