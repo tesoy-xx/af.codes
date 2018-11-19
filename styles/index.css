@@ -101,6 +101,7 @@ a {
     color: #FFFFFF !important;
     text-decoration: none !important;
     font-family: 'Lato', sans-serif !important;
+    font-size: 1.2rem;
 }
 
 .mdl-layout__header-row .mdl-navigation__link {
