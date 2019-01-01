@@ -172,6 +172,9 @@
 <script type="text/javascript">
     $('title').text('Welcome');
 
-    var currentYear = new Date().getFullYear();
-    $('.age').text(currentYear - 1995);
+    var now = moment(new Date());
+    var end = moment("1995-07-28"); // birth date
+    var duration = moment.duration(now.diff(end));
+    var years = Math.round(duration.asYears());
+    $('.age').text(years);
 </script>
