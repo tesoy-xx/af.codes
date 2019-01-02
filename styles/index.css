@@ -51,6 +51,8 @@ p strong, p b {
 }
 
 hr {
+    margin-top: 0.5% !important;
+    margin-bottom: 0.5% !important;
     border: 0;
     height: 1px;
     background: rgba(0, 0, 0, 0.2);
