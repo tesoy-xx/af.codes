@@ -121,7 +121,7 @@ h4 a {
 
 h4 a:hover {
     color: rgba(80, 80, 80, 1.0);
-    text-decoration: underline;
+    text-decoration: underline !important;
 }
 
 @media (max-width: 839px) and (min-width: 480px) {
