@@ -15,6 +15,10 @@ const starSpans = document.getElementsByClassName('stars');
 for (i = 0; i < starSpans.length; i++) {
     const currentSpan = starSpans[i];
     const repo = currentSpan.getAttribute('repo');
+
+    // Default value
+    currentSpan.innerHTML = `Check it out <a href="https://github.com/afollestad/${repo}" target="_blank">on GitHub</a>`;
+
     fetch(`https://api.github.com/repos/afollestad/${repo}`)
         .then(data => data.json())
         .then(json => {
@@ -22,10 +26,7 @@ for (i = 0; i < starSpans.length; i++) {
             console.log(`Stargazers for ${repo}: ${starGazers}`);
             currentSpan.innerHTML = `Currently has <strong>${starGazers}</strong> stars <a href="https://github.com/afollestad/${repo}" target="_blank">on GitHub</a>`;
         })
-        .catch(err => {
-            console.log(`Failed to get stars for ${repo}: ${err}`);
-            currentSpan.innerHTML = `Check it out <a href="https://github.com/afollestad/${repo}" target="_blank">on GitHub</a>`;
-        });
+        .catch(err => console.log(`Failed to get stars for ${repo}: ${err}`));
 }
 
 function numberWithCommas(x) {
