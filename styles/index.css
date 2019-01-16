@@ -167,4 +167,9 @@
     .grid-hero .card {
         padding: 0
     }
+
+    .btns-frame {
+        margin-left: -.8rem;
+        margin-right: -.8rem;
+    }
 }
