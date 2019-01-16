@@ -172,4 +172,8 @@
         margin-left: -.9rem;
         margin-right: -.9rem;
     }
+
+    .mr-2 {
+        margin-right: .2rem !important
+    }
 }
