@@ -1,10 +1,3 @@
-moment.tz.load({
-    zones : ['America/Los_Angeles'],
-    links : [],
-    version : '2018i'
-});
-
-
 var i = 0;
 
 // Fill in my age
